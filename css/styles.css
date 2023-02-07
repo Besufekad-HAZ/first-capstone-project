@@ -1,0 +1,164 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  background: url("../assets/Namm.jpg");
+  background-color: rgba(236, 83, 66, 1);
+  background-blend-mode: multiply;
+  background-size: auto;
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border: 1px solid #ec5242;
+}
+
+.mob-nav {
+  padding: 4%;
+  color: white;
+
+  /* border: 2px solid white; */
+}
+
+.mob-nav i {
+  font-size: 2rem;
+}
+
+.intro-section {
+  width: 90%;
+  margin: 7% auto;
+}
+
+.name_title {
+  color: #fff;
+}
+
+.intro-text {
+  font-size: 1.6em;
+  margin: 3%;
+}
+
+.mn-title {
+  font-family: "COCOGOOSE", sans-serif;
+  font-weight: 400;
+  font-size: 4rem;
+  text-align: center;
+  color: #ec5242;
+}
+
+.mn-title span {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 0 3%;
+}
+
+.title_desc {
+  font-family: "lato", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 1%;
+  background-color: rgb(39, 42, 49, 0.7);
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.desc-text {
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 3%;
+  font-size: 1.2rem;
+  text-align: justify;
+  background-color: rgba(236, 83, 66, 0.4);
+  margin-top: 2%;
+}
+
+.time_place {
+  color: white;
+  justify-content: center;
+  border: 2px solid white;
+  padding-bottom: 2%;
+  background-color: rgb(39, 42, 49, 0.5);
+}
+
+.time_place h3 {
+  margin: 2% auto 0;
+  justify-self: center;
+  text-align: center;
+}
+
+/* main section starts here */
+
+.main-container {
+  margin: 0;
+  padding: 0;
+}
+
+.sessions_container {
+  background: url(../assets/Sessions_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 0 auto;
+  padding-top: 4%;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  display: block;
+  width: 50px;
+  height: 2px;
+  margin: 10px auto;
+  background-color: rgba(236, 83, 66, 1);
+}
+
+.session {
+  display: flex;
+  width: 92%;
+  background-color: rgba(148, 148, 148, 0.4);
+  align-items: center;
+  padding: 2% 1.5%;
+  gap: 2%;
+  justify-content: space-around;
+  margin: 1.5%;
+}
+
+.session img {
+  width: 12%;
+}
+
+.session h3 {
+  font-size: calc(1.3rem + ((1.2vw - 8px) * 0.6944));
+  width: 20%;
+  color: #ec5242;
+}
+
+.session p {
+  display: flex;
+  font-size: calc(1rem + ((1.2vw - 7.8px) * 0.6944));
+  text-align: left;
+  width: 75%;
+}
+
+.join-link {
+  font-size: calc(1rem + ((1.2vw - 7.8px) * 0.6944));
+  cursor: pointer;
+  background-color: #ec5242;
+  color: white;
+  border: none;
+  padding: 20px 35px;
+  max-width: 300px;
+  margin: 1rem auto;
+  text-decoration: none;
+}
