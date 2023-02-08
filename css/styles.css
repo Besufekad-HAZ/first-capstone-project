@@ -33,6 +33,10 @@ header {
   font-size: 2rem;
 }
 
+.desk_nav {
+  display: none;
+}
+
 /* Hamburger Menu Starts Here */
 
 .mob-menu {
@@ -188,12 +192,16 @@ header {
   margin: 1.5%;
 }
 
+.session:hover {
+  border: 1px solid white;
+}
+
 .session img {
   width: 12%;
 }
 
 .session h3 {
-  font-size: calc(1.3rem + ((1.2vw - 8px) * 0.6944));
+  font-size: calc(1.2rem + ((1.2vw - 8px) * 0.6944));
   width: 20%;
   color: #ec5242;
 }
@@ -216,6 +224,11 @@ header {
   margin: 7% auto;
   text-decoration: none;
   text-align: center;
+}
+
+.join-link:hover {
+  color: #ec5242;
+  background-color: white;
 }
 
 .featured_musicians {
@@ -502,4 +515,205 @@ header {
   color: #ec5242;
   background-blend-mode: hard-light;
   font-weight: 900;
+}
+
+/* Media Query Minimum Screen Size 768px */
+
+@media (min-width: 768px) {
+  header {
+    border: none;
+    border-bottom: 2px solid #ec5242;
+    background-size: cover;
+  }
+
+  .mob-nav {
+    display: none;
+  }
+
+  .desk_nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    top: 0;
+
+    /* border: 2px solid black; */
+  }
+
+  .top-nav {
+    padding: 0.5rem 150px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.2rem;
+    background-color: #272a31;
+    color: white;
+    width: 100%;
+    z-index: 2;
+    align-items: center;
+  }
+
+  .top-nav li {
+    list-style-type: none;
+    display: inline;
+    padding: 0 5px;
+  }
+
+  .top-nav li a {
+    text-decoration: none;
+    color: white;
+    font-family: "lato", sans-serif;
+    font-size: 15px;
+  }
+
+  .desktop-nav {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding: 1.5% calc(5% + ((5vw - 8px) * 0.6944));
+    align-items: center;
+  }
+
+  .desktop-nav ul a {
+    text-decoration: none;
+    color: #272a31;
+    font-size: 16px;
+  }
+
+  .desktop-nav .connect a {
+    border: 2px solid #ec5242;
+    color: #ec5242;
+    padding: 5px 10px;
+  }
+
+  .desktop-nav .active a {
+    color: #ec5242;
+    border-bottom: 1px solid #ec5242;
+    padding-bottom: 3px;
+  }
+
+  .top-nav li a:hover,
+  .top-nav i:hover {
+    color: #ec5242;
+    cursor: pointer;
+    transition: 0.2s ease;
+  }
+
+  .desktop-nav img {
+    margin: 0;
+    padding: 0;
+    height: 5vh;
+  }
+
+  .desktop-nav ul {
+    padding-top: 5px;
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+  }
+
+  .desktop-nav ul a:hover {
+    transition: 0.2s ease-in;
+    border-bottom: 2px solid #ec5242;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+    font-weight: 700;
+  }
+
+  .desktop-nav .connect a:hover {
+    background-color: #ec5242;
+    color: white;
+  }
+
+  .intro-section {
+    width: 75%;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .name_title {
+    width: 100%;
+  }
+
+  .mn-title {
+    text-align: left;
+  }
+
+  .title_desc {
+    margin: 2% 0 1%;
+    text-align: left;
+    padding-left: 3%;
+    background: none;
+  }
+
+  .desc-text {
+    width: 60%;
+  }
+
+  .time_place {
+    border: 1px solid rgba(255, 255, 255, 1);
+    padding-bottom: 2%;
+    width: 60%;
+    background-color: rgb(211, 211, 211, 0.2);
+  }
+
+  .time_place h3 {
+    justify-self: left;
+    text-align: left;
+    margin-left: 5%;
+  }
+
+  .sessions_container {
+    background: url(../assets/Sessions_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    margin: 2% auto;
+    padding-top: 4%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .session-wrapper {
+    display: flex;
+    margin: 2%;
+  }
+
+  .session {
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 2% 0;
+    align-items: center;
+    text-align: center;
+    margin: 1%;
+  }
+
+  .session img {
+    width: 55%;
+  }
+
+  .session h3 {
+    font-size: calc(1.3rem + ((1.2vw - 8px) * 0.6944));
+    color: #ec5242;
+    width: 100%;
+    margin-top: 0;
+    padding: 0;
+    -webkit-text-stroke: 0.3px #fff;
+  }
+
+  .session p {
+    font-size: calc(11px + ((1.2vw - 7.8px) * 0.6944));
+    text-align: center;
+    justify-self: stretch;
+    width: 75%;
+    margin-top: 5%;
+  }
+
+  .piano_img {
+    height: 12vh;
+    margin-bottom: 5%;
+  }
+
+  .piano-margin {
+    margin-bottom: 1rem;
+  }
 }

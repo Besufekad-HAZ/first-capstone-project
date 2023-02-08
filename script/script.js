@@ -6,7 +6,7 @@ const guestsList = [
     name: 'Amanuel Worku',
     skills:
       'Music Producer/ Composer/ Arranger and songwriter/ Associate Music Professor at Harvard.',
-    desc: 'Very Talented and Versatile producer. Recieved the Best Gospel Music Producer and Mix enginner Award in 2022.'
+    desc: 'Very Talented and Versatile producer. Recieved the Best Gospel Music Producer and Mix Engineer (GMA) Award in 2022.'
   },
   {
     img: 'Atsbega.jpg',
@@ -26,14 +26,14 @@ const guestsList = [
     img: 'Bese.jpg',
     name: 'Besufekad Alemu',
     skills:
-      'Music Producer/ Composer/ Arranger and songwriter/ Music Director at Sydney University',
+      'Music Producer/ Composer/ Arranger and songwriter/ Music Director at Sydney University.',
     desc: 'Enjoys Music and Perfecting his craft. Widely known for his choral Arrangements and Reharms!'
   },
   {
     img: 'Moni.jpg',
     name: 'Yonathan Mebrate',
     skills:
-      'Business Man/ Fender,Ibanez and Nord Brand Ambassador/ Agent for HARMONIX MUSIC SYSTEMS',
+      'Business Man/ Fender,Ibanez and Nord Brand Ambassador/ Agent for HARMONIX MUSIC SYSTEMS.',
     desc: 'A natural businessperson, and brilliant business mind, Yonathan is known for his progressive attitude toward licensing songs and spotting musical talents.'
   },
   {
@@ -41,7 +41,7 @@ const guestsList = [
     name: 'Surafel Lessanu',
     skills:
       'Youtube Streamer / Gamer/ Graphics Designer/ Produces Music for Games/ Visual FX Expert',
-    desc: 'Known for his Problem solving mind, an Elite Gamer, Visual Effects and Graphics design expert and Produced some interesting beats and music Tracks for GTA-V: Roleplay'
+    desc: 'Known for his Problem solving mind, an Elite Gamer, Visual Effects and Graphics design expert and Produced some interesting beats and music Tracks for GTA-V: Roleplay.'
   }
 ]
 
