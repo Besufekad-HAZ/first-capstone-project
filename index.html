@@ -20,7 +20,18 @@
   <body>
     <header>
       <nav class="mob-nav">
-        <i class="fa-sharp fa-solid fa-bars"></i>
+        <i class="fa-sharp fa-solid fa-bars open_btn"></i>
+        <div class="mob-menu">
+          <i class="fa-sharp fa-solid fa-xmark close_btn"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="index.html">Program</a></li>
+            <li><a href="about.html">Join</a></li>
+            <li><a href="about.html">Sponsor</a></li>
+            <li><a href="about.html">News</a></li>
+          </ul>
+        </div>
       </nav>
       <nav class="desk_nav">
         <div class="top-nav"></div>
@@ -83,8 +94,7 @@
           <p>
             This event brings together the most intuitive bass guitar brands
             around, allowing them to showcase their respective new gear to their
-            peers and the world at large with Marcus Miller (the Legend) will be
-            Playing them.
+            peers and the world at large.
           </p>
         </div>
         <div class="session">
@@ -109,35 +119,31 @@
       </section>
       <section class="featured_musicians">
         <h2>Featured Musicians</h2>
-        <span class="title_line"></span>
+        <span class="line"></span>
         <!-- Dyamically loading the Featured musicians list here -->
         <div class="Masters"></div>
       </section>
     </main>
     <footer>
       <section class="partners">
-        <h2>Partner</h2>
-        <hr />
-        <div class="partner_photos">
-          <!-- <img src="assets/mozilla.png" alt="mozilla" />
-          <img
-            src="https://1000logos.net/wp-content/uploads/2021/05/Google-logo.png"
-            alt="google"
-          />
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Naver_Logotype.svg/1200px-Naver_Logotype.svg.png"
-            alt="naver"
-          />
-          <img
-            class="facebook"
-            src="https://logodownload.org/wp-content/uploads/2014/09/facebook-logo-15.png"
-            alt="facebook"
-          />
-          <img src="assets/airbnb.png" alt="" /> -->
+        <h2 class="partners_title">Partners</h2>
+        <span class="line"></span>
+        <div class="partner_logos">
+          <img src="./assets/Apple-Music.png" alt="Apple Music Logo" />
+          <img src="./assets/Fender.png" alt="Fender Logo" />
+          <img src="./assets/Ibanez.png" alt="Ibanez Logo" />
+          <img src="./assets/Roland.png" alt="Roland Logo" />
+          <img src="./assets/Yamaha.png" alt="Yamaha Logo" />
         </div>
       </section>
+      <div class="footer_logos">
+        <img src="./assets/NAMM-logo.jpg" alt="Logo" />
+        <p class="footer_text">
+          © 2023 The NAMM Show(East Africa) <br />
+          All Rights Reserved
+        </p>
+      </div>
     </footer>
-
     <script src="./script/script.js"></script>
   </body>
 </html>
