@@ -42,8 +42,9 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [ Live Demo](#live-demo)
   - [Screenshot](#screenshot)
+  - [Loom Presentation Video](#loom-video)
+  - [Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -111,6 +112,10 @@ After you're finished please remove all the comments and instructions!
 ## 🚀 Screenshot <a name="screenshot"></a>
 
 ![image](https://user-images.githubusercontent.com/23375153/217803810-3a3d8691-267c-4303-a68a-76139ddc6d2f.png)
+
+## 💻 Loom Presentation Video <a name="loom-video"></a>
+
+- [Loom Link](https://www.loom.com/share/7e2012db58b54d24ba73fee38f718d9c)
 
 <!-- LIVE DEMO -->
 
