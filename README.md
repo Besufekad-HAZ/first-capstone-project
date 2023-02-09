@@ -114,7 +114,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Loom Presentation Video <a name="loom-video"></a>
 
-- [Loom Link](https://www.loom.com/share/7e2012db58b54d24ba73fee38f718d9c)
+- [Loom Link](https://www.loom.com/share/bbd9761db353491d9a966b74a281e55d)
 
 <!-- LIVE DEMO -->
 
