@@ -27,7 +27,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="bese_logo.jpg" alt="logo" width="140"  height="auto" />
+  <img src="bese_logo.jpg" alt="logo" width="200"  height="auto" />
   <br/>
 
   <h3><b>README</b></h3>
@@ -42,8 +42,8 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [SCREENSHOT] (#screenshot)
-  - [🚀 Live Demo](#live-demo)
+  - [Screenshot] (#screenshot)
+  - [ Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -61,7 +61,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [The_NAMM_SHOW_EAST_AFRICA_2023(1st_Capstone_Project)] <a name="about-project"></a>
+# 📖 [The NAMM SHOW EAST AFRICA 2023(1st_Capstone_Project)] <a name="about-project"></a>
 
 > The NAMM Show is an annual event that is organized by the National Association of Music Merchants (NAMM), who describe it as "the industry’s largest stage, uniting the global music, sound and entertainment technology communities". The NAMM Show takes place annually, and is one of the largest music product trade shows in the world.
 
