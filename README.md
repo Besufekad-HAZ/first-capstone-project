@@ -42,6 +42,7 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [SCREENSHOT] (#screenshot)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -60,11 +61,13 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Besu's_1st_Capstone_Project] <a name="about-project"></a>
+# 📖 [The_NAMM_SHOW_EAST_AFRICA_2023(1st_Capstone_Project)] <a name="about-project"></a>
 
-> Description
+> The NAMM Show is an annual event that is organized by the National Association of Music Merchants (NAMM), who describe it as "the industry’s largest stage, uniting the global music, sound and entertainment technology communities". The NAMM Show takes place annually, and is one of the largest music product trade shows in the world.
 
-**[[Besu's_1st_Capstone_Project]** is my 1st microverse Capstone Project using html, css, and js languages.
+> The event attracts numerous famous musicians, many of whom are endorsed by exhibitors and come to promote their own signature models and equipment.
+
+** [Besu's_1st_Capstone_Project]** is my 1st microverse Capstone Project using html, css, and js languages.
 
 ## 🛠 Built With <a name="built-with">HTML,CSS and Javascript</a>
 
@@ -102,6 +105,12 @@ After you're finished please remove all the comments and instructions!
 - **[Javascript]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- The NAMM SHOW EAST AFRICA WEBSITE SCREENSHOT -->
+
+## 🚀 Screenshot of the page <a name="screenshot"></a>
+
+![image](https://user-images.githubusercontent.com/23375153/217803810-3a3d8691-267c-4303-a68a-76139ddc6d2f.png)
 
 <!-- LIVE DEMO -->
 
