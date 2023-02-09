@@ -108,7 +108,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- The NAMM SHOW EAST AFRICA WEBSITE SCREENSHOT -->
 
-## 🚀 Screenshot of the page <a name="screenshot"></a>
+## 🚀 Screenshot <a name="screenshot"></a>
 
 ![image](https://user-images.githubusercontent.com/23375153/217803810-3a3d8691-267c-4303-a68a-76139ddc6d2f.png)
 
