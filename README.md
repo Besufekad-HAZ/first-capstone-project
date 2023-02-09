@@ -49,7 +49,6 @@ After you're finished please remove all the comments and instructions!
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)
   - [Run tests](#run-tests)
   - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
@@ -134,14 +133,10 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+-A Computer (MAC or PC)
+-code editor (VSCode,Atom etc...)
+-A browser (Chrome,Mozilla,Safari etc...)
+-Version Control System (Git and Github)
 
 ### Setup
 
@@ -154,26 +149,10 @@ git clone git@github.com:Besufekad-HAZ/first-capstone-project.git (SSH)
 
 Install this project with:
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
-
-### Usage
-
-To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+npx init
+npm init -y
+npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
 
 ### Run tests
 
@@ -209,8 +188,6 @@ Example:
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
 
 👤 **Besufekad Alemu**
 
@@ -255,6 +232,8 @@ If you like this project rate it and give it a star.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 --> I would like to thank the Microverse team for allowing us to work on this project.
+
+--> The Original design idea is by <a href="https://www.behance.net/adagio07">Cindy Shin in Behance".</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

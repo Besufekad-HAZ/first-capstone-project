@@ -11,17 +11,19 @@ body {
 }
 
 header {
-  background: url("../assets/Namm.jpg");
+  background: url("../assets/Sessions-bg.jpg");
 
   /* #EC5242 converted to RGB Value to adjust opacity */
   background-color: rgba(236, 83, 66);
-  background-blend-mode: multiply;
+  background-blend-mode: hard-light;
   background-size: auto;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   margin-bottom: 0;
   padding-bottom: 0;
-  border: 1px solid #ec5242;
+}
+
+.header-abt {
+  background-blend-mode: color-burn;
 }
 
 .mob-nav {
@@ -35,6 +37,7 @@ header {
 
 .desk_nav {
   display: none;
+  border: none;
 }
 
 /* Hamburger Menu Starts Here */
@@ -162,9 +165,20 @@ header {
 
 /* main section starts here */
 
-.main-container {
+.bg-contianer {
   margin: 0;
   padding: 0;
+  background: url("../assets/Namm.jpg");
+
+  /* #EC5242 converted to RGB Value to adjust opacity */
+  background-color: rgba(236, 83, 66);
+  background-blend-mode: multiply;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border: 1px solid #ec5242;
 }
 
 .sessions_container {
@@ -385,8 +399,9 @@ header {
 
   /* #EC5242 converted to RGB Value to adjust opacity */
   background-color: rgb(211, 211, 211, 0.3);
-  background-blend-mode: overlay;
-  background-size: cover;
+  background-blend-mode: hard-light;
+  background-size: 100% 100%;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-attachment: fixed;
   border: 2px solid white;
@@ -558,9 +573,15 @@ header {
 /* Media Query Minimum Screen Size 768px */
 
 @media (min-width: 768px) {
-  header {
+  .header {
     border: none;
-    border-bottom: 2px solid #ec5242;
+  }
+
+  .abt-header {
+    background-size: cover;
+  }
+
+  .bg-contianer {
     background-size: cover;
   }
 
@@ -573,6 +594,7 @@ header {
     flex-direction: column;
     width: 100%;
     top: 0;
+    border: #ec5242;
   }
 
   .time_place-abt a {
@@ -714,10 +736,30 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    margin: 2% auto;
+    margin: 0 auto 2%;
     padding-top: 4%;
     align-items: center;
     justify-content: center;
+  }
+
+  .session_photos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .First_photo {
+    width: 80%;
+    height: 20vh;
+  }
+
+  .Second_photo {
+    width: 80%;
+    height: 20vh;
+    margin: 0 3% 0 0;
+    background-color: rgba(160, 42, 29, 0.7);
   }
 
   .session-wrapper {
@@ -854,5 +896,12 @@ header {
     font-size: calc(0.9rem + ((1.2vw - 8px) * 0.6));
     color: white;
     font-style: italic;
+  }
+
+  .footer-about-bg {
+    background-color: #272a31;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0 5% 4%;
   }
 }
