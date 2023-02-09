@@ -12,7 +12,6 @@ body {
 
 header {
   background: url("../assets/Namm.jpg");
-
   /* #EC5242 converted to RGB Value to adjust opacity */
   background-color: rgba(236, 83, 66);
   background-blend-mode: multiply;
@@ -257,8 +256,6 @@ header {
   background: url("../assets/speaker_bg.jpg") no-repeat top left;
   padding-left: 12px;
   padding-top: 12px;
-
-  /* border: 2px solid black; */
   object-fit: cover;
 }
 
@@ -306,26 +303,34 @@ header {
 }
 
 .partner_logos {
+  display: grid;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin: 0 auto;
+}
+
+.partner_logos a {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
 
 .partner_logos img {
-  width: 25%;
   margin: 0 2%;
-  height: 27%;
-  filter:
-    invert(50%) sepia(70%) saturate(1%) hue-rotate(357deg)
+  filter: invert(50%) sepia(70%) saturate(1%) hue-rotate(357deg)
     brightness(150%) contrast(97%);
+  width: 100%;
 }
 
 .footer_logos {
   width: 80%;
   display: flex;
-  gap: 5%;
+  gap: 4%;
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
@@ -333,9 +338,6 @@ header {
 
 .footer_logos img {
   width: 30%;
-  filter:
-    invert(90%) sepia(0%) saturate(100%) hue-rotate(10deg)
-    brightness(200%) contrast(100%);
   margin: 2%;
 }
 
@@ -348,13 +350,8 @@ header {
 
 .abt-header {
   background: url("../assets/NAMM-abt.jpeg");
-
   /* #EC5242 converted to RGB Value to adjust opacity */
   background-color: rgb(211, 211, 211, 0.3);
-
-  /* background-blend-mode:hard-light; */
-
-  /* background-blend-mode:multiply; */
   background-blend-mode: overlay;
   background-size: cover;
   background-repeat: no-repeat;
@@ -435,8 +432,15 @@ header {
   text-align: center;
   margin: 5% 0;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: #272a31;
+}
+
+.bold_name {
+  color: #ec5242;
+  font-family: "COCOGOOSE", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 .logo img {
@@ -535,8 +539,6 @@ header {
     flex-direction: column;
     width: 100%;
     top: 0;
-
-    /* border: 2px solid black; */
   }
 
   .top-nav {
@@ -709,11 +711,89 @@ header {
   }
 
   .piano_img {
-    height: 12vh;
+    height: calc(8vh + ((5vw - 15px) * 0.6));
     margin-bottom: 5%;
   }
 
   .piano-margin {
     margin-bottom: 1rem;
+  }
+
+  .Masters {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    padding: 1%;
+    gap: 1%;
+  }
+
+  .desc {
+    gap: 1%;
+  }
+
+  .desc h2 {
+    font-size: 150%;
+    max-width: 50%;
+  }
+
+  .skills {
+    font-size: calc(1rem + ((1.1vw) * 0.1));
+    color: #ec5242;
+    margin-top: 1%;
+    max-width: 90%;
+    font-style: italic;
+  }
+
+  .info {
+    font-size: calc(1rem + ((1.1vw) * 0.1));
+  }
+
+  .partner_logos a img {
+    margin: 0 2%;
+    filter: invert(50%) sepia(70%) saturate(1%) hue-rotate(357deg)
+      brightness(150%) contrast(97%);
+  }
+
+  .partner_logos {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .footer_logos {
+    width: 70%;
+    display: flex;
+    gap: 3%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    filter: none;
+  }
+
+  .footer_logos img {
+    filter: none;
+  }
+
+  .footer_text {
+    color: #ec5242;
+    text-align: center;
+    font-size: calc(1.2rem + ((1.2vw - 8px) * 0.6944));
+    animation: color-change 1s infinite;
+  }
+
+  @keyframes color-change {
+    0% {
+      color: #272a31;
+    }
+    50% {
+      color: #969191;
+    }
+    100% {
+      color: #ec5242;
+    }
+  }
+
+  .time_place-abt p {
+    font-size: calc(0.9rem + ((1.2vw - 8px) * 0.6));
+    color: white;
+    font-style: italic;
   }
 }

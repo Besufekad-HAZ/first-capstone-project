@@ -13,11 +13,11 @@ const guestsList = [
     name: 'Beabtsega Likoyu',
     skills:
       'Music Producer/ Percussionist/ Arranger and songwriter/ Bassist/ Music Director At Oakwood University.',
-    desc: 'Very Talented, an elite Keyboardist and Bassist. Renowned for his tastful bass lines'
+    desc: 'Very Talented, an elite Keyboardist and Bassist. Renowned for his tastful bass lines.'
   },
   {
     img: 'Midne.jpg',
-    name: 'Yidnekachew Kassahun',
+    name: 'Yidne Kassahun',
     skills:
       'Music Producer/ Choir Director/ Arranger and songwriter/ Saxophonist/ Vocal and Choral Director Berklee.',
     desc: 'Recieved Singer and Artist of the year Award in GMA Awards 2020,his success and talent is very refreshing!'
