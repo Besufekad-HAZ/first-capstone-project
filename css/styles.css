@@ -12,6 +12,7 @@ body {
 
 header {
   background: url("../assets/Namm.jpg");
+
   /* #EC5242 converted to RGB Value to adjust opacity */
   background-color: rgba(236, 83, 66);
   background-blend-mode: multiply;
@@ -77,6 +78,13 @@ header {
   text-decoration: underline;
   color: white;
   font-style: italic;
+  font-size: calc(70% + ((2vw - 7%) * 0.9));
+}
+
+.partner_logos a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .mob-menu a:hover {
@@ -188,7 +196,7 @@ header {
   padding: 2% 1.5%;
   gap: 2%;
   justify-content: space-around;
-  margin: 1.5%;
+  margin: 1.5% auto;
 }
 
 .session:hover {
@@ -213,13 +221,13 @@ header {
 }
 
 .join-link {
-  font-size: calc(1rem + ((1.2vw - 7.8px) * 0.6944));
+  font-size: calc(1rem + ((1.5vw - 7.8px) * 0.6944));
   cursor: pointer;
   background-color: #ec5242;
   color: white;
   border: none;
-  padding: 20px 35px;
-  max-width: 300px;
+  padding: 1.2rem 2.1rem;
+  max-width: 320px;
   margin: 7% auto;
   text-decoration: none;
   text-align: center;
@@ -289,6 +297,33 @@ header {
   font-size: calc(1rem + ((1.2vw - 7.8px) * 0.6944));
 }
 
+.btn {
+  width: 83%;
+  justify-content: center;
+  color: #000;
+  background: #fff;
+  text-align: center;
+  margin: 40px 25px;
+  padding: 3% 0%;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  border: 1px solid #d3d3d3;
+}
+
+.btn:hover {
+  background-color: #63666d;
+  color: #fff;
+  border-radius: 0;
+}
+
+.fa-angle-down {
+  color: #ec5242;
+  padding-left: 2px;
+}
+
+/* Dynamically Load Style code ends here */
+
 .partners {
   padding: 5%;
   display: flex;
@@ -314,15 +349,10 @@ header {
   margin: 0 auto;
 }
 
-.partner_logos a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .partner_logos img {
   margin: 0 2%;
-  filter: invert(50%) sepia(70%) saturate(1%) hue-rotate(357deg)
+  filter:
+    invert(50%) sepia(70%) saturate(1%) hue-rotate(357deg)
     brightness(150%) contrast(97%);
   width: 100%;
 }
@@ -334,9 +364,11 @@ header {
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
+  padding: 2%;
 }
 
 .footer_logos img {
+  filter: none;
   width: 30%;
   margin: 2%;
 }
@@ -350,6 +382,7 @@ header {
 
 .abt-header {
   background: url("../assets/NAMM-abt.jpeg");
+
   /* #EC5242 converted to RGB Value to adjust opacity */
   background-color: rgb(211, 211, 211, 0.3);
   background-blend-mode: overlay;
@@ -381,6 +414,7 @@ header {
   text-align: center;
   color: #ec5242;
   background-color: #d3d3d3;
+  margin: 0 auto;
 }
 
 .title_desc-abt {
@@ -541,6 +575,13 @@ header {
     top: 0;
   }
 
+  .time_place-abt a {
+    text-decoration: underline;
+    color: white;
+    font-style: italic;
+    font-size: calc(2vh + ((2vw - 1rem) * 0.4));
+  }
+
   .top-nav {
     padding: 0.5rem 150px;
     display: flex;
@@ -638,6 +679,10 @@ header {
 
   .mn-title {
     text-align: left;
+  }
+
+  .mn-title-abt {
+    max-width: 500px;
   }
 
   .title_desc {
@@ -748,9 +793,25 @@ header {
     font-size: calc(1rem + ((1.1vw) * 0.1));
   }
 
+  .btn {
+    display: none;
+  }
+
+  .footer_logos img {
+    filter: none;
+    width: 30%;
+    margin: 2%;
+  }
+
+  .partners_title {
+    color: white;
+    font-size: calc(2vh + ((3.5vw - 15px) * 0.6));
+  }
+
   .partner_logos a img {
     margin: 0 2%;
-    filter: invert(50%) sepia(70%) saturate(1%) hue-rotate(357deg)
+    filter:
+      invert(50%) sepia(70%) saturate(1%) hue-rotate(357deg)
       brightness(150%) contrast(97%);
   }
 
@@ -768,10 +829,6 @@ header {
     filter: none;
   }
 
-  .footer_logos img {
-    filter: none;
-  }
-
   .footer_text {
     color: #ec5242;
     text-align: center;
@@ -783,9 +840,11 @@ header {
     0% {
       color: #272a31;
     }
+
     50% {
       color: #969191;
     }
+
     100% {
       color: #ec5242;
     }
